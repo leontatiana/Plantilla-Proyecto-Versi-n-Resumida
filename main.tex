@@ -1,0 +1,166 @@
+%--------------------------------IMPORTANTE-------------------------------
+%-------------------------------------------------------------------------
+%	1. Se debe modificar aquello que este comentado de la siguiente manera
+							%"~~~~~MODIFICAR~~~~~~~~"
+%	2. Sólo eliminar y reemplazar aquello que diga explicitamente
+							%"eliminar"
+%	3. Leer MUY BIEN los comentarios
+
+%Esta plantilla fue desarrollada por Tatiana León Zamora, cualquier duda, pueden contactarme: yessica.leon@mail.escuelaing.edu.co
+%-------------------------------------------------------------------------
+%-------------------------------------------------------------------------
+\documentclass[12pt, oneside]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+%Los siguientes son los packages más básicos para la escritura del artículo
+\usepackage{graphicx, subfigure, wrapfig, float}
+\usepackage{amsmath, amssymb, amsfonts, amsthm}
+\usepackage{caption, multicol, multirow, longtable}
+\usepackage{url, cclicenses, lastpage, color, booktabs}
+\usepackage{graphicx,lipsum,wrapfig} %lipsum es un generador de texto dummy
+\usepackage{fancyhdr, fancybox}
+\usepackage{array, cite, enumerate} 
+\usepackage{vmargin}
+\usepackage{anysize}
+\usepackage{xcolor}
+
+%Define comandos para cuando se quiera poner un teorema, lema, ejemplo, corolario o definición
+\newtheorem{theo}{Teorema}
+\newtheorem{examp}{Ejemplo}
+\newtheorem{coro}{Corolario}
+\newtheorem{defi}{Definición}
+\newtheorem{lem}{Lema}
+
+
+\renewcommand\rmdefault{lmr}
+
+\cfoot{\thepage} %pie de página
+
+\begin{document}
+\setmargins{2cm}{1cm}{18cm}{23.42cm}{10pt}{1cm}{0pt}{1cm}
+
+%encabezado portada
+\begin{figure}[t]
+\begin{minipage}{0.5\textwidth}\large
+\begin{flushleft}
+\includegraphics[scale=0.7]{logoECI.png} %encabezado ECI
+\end{flushleft}
+\end{minipage}
+\begin{minipage}{0.5\textwidth}\large
+\begin{flushright}
+\includegraphics[scale=0.75]{MATH.png} %encabezado Programa de Matemáticas
+\end{flushright}
+\end{minipage}
+\end{figure}
+
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~MODIFICAR~~~~~~~~~~~~~~~~~~~~~
+\title{\textsc{Ponga aquí el título de su proyecto}} %Poner el título de su proyecto
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+\date{}
+\maketitle
+\begin{center}
+\begin{tabular}{cc}
+\textbf{Autores} & \textbf{Dirigido Por} \\
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~MODIFICAR~~~~~~~~~~~~~~~~~~~~~
+%Poner el nombre de los autores sustituyendo Nombre Apellido 1, Nombre Apellido 2, Nombre Apellido 3. Añadir o eliminar filas si es necesario
+
+Nombre Apellido 1 & PhD./MSc./Profesor. Nombre Profesor\\ %Poner si el profe es PhD., MSc. o Profesor.
+Nombre Apellido 2  &  \\
+Nombre Apellido 3 & \\		
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+\end{tabular}
+\end{center}
+\vspace{1cm}
+
+\textbf{Resumen}
+\\ \\
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~MODIFICAR~~~~~~~~~~~~~~~~~~~~~
+%eliminar \lipsum[#]
+Debe ser un pequeño resumen de lo que trata su trabjo.
+\\ \\
+\lipsum[1]
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+\vspace{1cm}
+
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~MODIFICAR~~~~~~~~~~~~~~~~~~~~~
+\textbf{Palabras Clave}
+\\ \\
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~MODIFICAR~~~~~~~~~~~~~~~~~~~~~
+Phasellus, donec, eget, trum \\ \\ %eliminar
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+\vspace{1cm}
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~MODIFICAR~~~~~~~~~~~~~~~~~~~~~
+
+\textbf{Abstract}
+\\ \\
+%eliminar \lipsum[#]
+It should be a brief summary of what your project is about.
+\\ \\
+\lipsum[1]
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+\vspace{1cm}
+
+\textbf{Keywords}
+\\ \\
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~MODIFICAR~~~~~~~~~~~~~~~~~~~~~
+Phasellus, donec, eget, trum \\ \\ %eliminar 
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+\vspace{1cm}
+\textbf{Preliminares}
+\\ \\
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~MODIFICAR~~~~~~~~~~~~~~~~~~~~~
+%eliminar \lipsum[#]
+\lipsum[1]
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+\vspace{1cm}
+
+\textbf{Resultados Importantes} \\
+\\
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~MODIFICAR~~~~~~~~~~~~~~~~~~~~~
+%eliminar \lipsum[#]
+Se debe poner algunos resultados importantes, o ejemplos que ilustren de lo que trata su trabajo. Es importante tener en cuenta que no se debe poner TODOS los resultados del trabajo principal. Sólo los más importantes.
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+\\ \\
+\lipsum[3]
+\vspace{1cm}
+\textbf{Conclusiones}
+\\ \\
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~MODIFICAR~~~~~~~~~~~~~~~~~~~~~
+%eliminar \lipsum[#]
+\lipsum[4]
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+\vspace{1cm}
+\textbf{Trabajo a Futuro (si lo hay)}
+\\ \\
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~MODIFICAR~~~~~~~~~~~~~~~~~~~~~
+%eliminar \lipsum[#]
+\lipsum[4]
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+\vspace{1cm}
+\textbf{Referencias} %Los siguientes son algunos ejemplos de cita.
+\begin{enumerate}
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~MODIFICAR~~~~~~~~~~~~~~~~~~~~~
+\item LÓPEZ, F. (SF) \textit{Espacios Topoógicos}, Depto. de Geometría y Topología.
+\item MACHO, M. (2002), \textit{¿Qué es la topología?}, Universidad del País Vasco-Euskal Herriko Unibertsitatea.
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+\end{enumerate}
+\vspace{1cm}
+\noindent\fbox{%
+\parbox{16cm}{%
+\textbf{Contactos:}
+\\ \\
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~MODIFICAR~~~~~~~~~~~~~~~~~~~~~
+Nombre Profesor: profesor@escuelaing.edu.co \\ \\
+Nombre Apellido 1: estudiante1@mail.escuelaing.edu.co\\
+Nombre Apellido 2: estudiante2@mail.escuelaing.edu.co\\
+Nombre Apellido 3: estudiante3@mail.escuelaing.edu.co\\
+%~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+}%
+}
+\\ \\ \\
+
+\end{document}
+
+%Esta plantilla fue desarrollada por Tatiana León Zamora, cualquier duda, pueden contactarme: yessica.leon@mail.escuelaing.edu.co
+
